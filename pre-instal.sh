@@ -6,5 +6,6 @@ sudo apt install make g++ apache2 unzip p7zip-full lua5.1 lua5.1-dev lua-socket 
 sudo a2enmod cgi
 systemctl restart apache2
 
-sudo apt-get install -y libpq-dev
-sudo apt-get install -y postgresql
+
+sudo apt install mariadb-server 
+sudo apt install libmariadbclient-dev
