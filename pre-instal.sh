@@ -7,5 +7,5 @@ sudo a2enmod cgi
 systemctl restart apache2
 
 
-sudo apt install mariadb-server 
-sudo apt install libmariadbclient-dev
+sudo apt install mariadb-server libmariadbclient-dev -y
+
